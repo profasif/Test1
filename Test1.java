@@ -10,6 +10,8 @@ class Test1
         System.out.println("Length: " + box.getLength());
         System.out.println("Breadth: " + box.getBreadth());         
         System.out.println("Height: " + box.getHeight());   
-            
+
+        System.out.println(box);
+        
     }   
 }

@@ -20,6 +20,8 @@ public class Box {
     public void setHeight(int height) {
         this.height = height;
     }
-    
+    public String toString() {
+        return "Box [length=" + length + ", breadth=" + breadth + ", height=" + height + "]";
+    }   
 
 }
