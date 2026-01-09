@@ -2,16 +2,12 @@ class Test1
 {
     public static void main(String args[])
     {
-        System.out.println("Hi");
-        Box box=new Box();
+        Box box = new Box();
         box.setLength(10);
-        box.setBreadth(20);
-        box.setHeight(30);  
-        System.out.println("Length: " + box.getLength());
-        System.out.println("Breadth: " + box.getBreadth());         
-        System.out.println("Height: " + box.getHeight());   
-
-        System.out.println(box);
+        box.setBreadth(5);
+        box.setHeight(2);
+        System.out.println("Box Details: " + box.toString());
+        System.out.println("Volume of the Box: " + box.getVolume());
         
     }   
 }

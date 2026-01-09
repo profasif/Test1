@@ -23,5 +23,10 @@ public class Box {
     public String toString() {
         return "Box [length=" + length + ", breadth=" + breadth + ", height=" + height + "]";
     }   
-
+    public int getVolume() {
+        // Calculate volume of the box
+        return length * breadth * height;
+    }
+    
+    
 }
