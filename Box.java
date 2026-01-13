@@ -1,4 +1,13 @@
+import java.awt.Color;
 public class Box {
+
+    private Color color;
+    public Color getColor() {
+        return color;
+    }       
+    public void setColor(Color color) {
+        this.color = color;
+    }   
     private int length;
     public int getLength() {
         return length;
